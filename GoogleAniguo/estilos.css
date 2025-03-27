@@ -1,0 +1,88 @@
+body{
+    margin: 0 auto;
+}
+
+nav{
+    
+    padding-right: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+nav div {
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: rgb(126, 125, 125); 
+    font-size: 18px;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+
+.barra {
+        text-align: center;
+        width: 700px; /* Ancho similar a la barra de Google */
+        height: 20px; /* Altura adecuada */
+        padding: 10px 15px;
+        font-size: 16px;
+        border: 1px solid #a9aaac; 
+        border-radius: 24px; 
+        outline: none; 
+        
+}
+
+div input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Efecto de enfoque */
+    border-color: #a9aaac;
+}
+.iconos{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 0;
+    
+    
+}
+
+.iconos div{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgb(216, 216, 216);
+    width: 30px;
+    height: 30px;
+}
+
+.iconos div a{
+    color:black ;
+}
+
+.iconos div:hover{
+    background-color: #a9aaac;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.lupa{
+    position: relative;
+    left: 35px;
+}
